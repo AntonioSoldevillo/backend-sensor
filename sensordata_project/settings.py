@@ -135,6 +135,7 @@ DJOSER = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173/",  # React Development Server
     "http://localhost:19006",  # Expo (React Native) Development Server
+    "http://112.198.99.107:8000"
 ]
 
 REST_FRAMEWORK = {
