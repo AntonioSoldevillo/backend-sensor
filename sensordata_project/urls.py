@@ -10,6 +10,6 @@ router.register(r'sensor-data', SensorDataViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', include('djoser.urls')),
-    path('auth/token', include('djoser.urls.authtoken')),
+    path('auth/', include('djoser.urls.authtoken')),
     path('api/', include(router.urls)),
 ]
